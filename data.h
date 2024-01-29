@@ -1,4 +1,4 @@
-using namespace std;
+using*namespace std;
 #include <string>
 extern double** dmatrix(int row, int col);
 extern void  free_matrix(double**x, int row);
@@ -10,3 +10,4 @@ extern void csv_read(const char* in_string, double*x);
 extern void svm_read_line(const string& line, double* x, double y);
 extern void svm_load(const string& filename, double** x, double* y);
 extern void load_target(const char* train_target, double* y);
+ 
